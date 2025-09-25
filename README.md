@@ -60,4 +60,32 @@ task2/
 <br>
 └─ README.md      # Project documentation
 
+<h1> TASK3 </h1>
+<h3>Web Scraper for News Headlines</h3>
+📌 Objective
 
+Build a Python script that automatically scrapes top news headlines from a public website and saves them into a text file.
+
+<b>🛠 Tools & Libraries Used </b>
+Python 3
+<br>
+requests – to send HTTP requests and fetch HTML
+<br>
+BeautifulSoup4– to parse and extract data from HTML
+<br>
+<b>Project Structure</b>
+<br>
+├── scraper.py      <br>
+├── headlines.txt <br>
+<br>
+
+<b>🚀 How It Works</b>
+
+The script sends an HTTP GET request to a news website (e.g., BBC News).
+<br>
+The HTML response is parsed using BeautifulSoup.
+<br
+The program extracts all <h2> tags (commonly used for headlines).
+<br>
+The cleaned text is saved in headlines.txt.
+<br>
