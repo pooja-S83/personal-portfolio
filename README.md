@@ -80,6 +80,7 @@ BeautifulSoup4– to parse and extract data from HTML
 <br>
 
 <b>🚀 How It Works</b>
+<br>
 The script sends an HTTP GET request to a news website (e.g., BBC News).
 <br>
 The HTML response is parsed using BeautifulSoup.
