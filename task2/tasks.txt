@@ -1,0 +1,9 @@
+Monday | shopping | Pending
+Monday | complete the tasks of elevate labs | Done
+Tuesday | solo trip | Pending
+Tuesday | fun time with family | Done
+Wednesday | attend webinar at 5 pm | Pending
+Thursday | week off | Pending
+Friday | visitig temple | Pending
+Friday | work on project | Done
+Sunday | sleeping reading time with family time with my dog | Pending
