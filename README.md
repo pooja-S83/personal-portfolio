@@ -80,12 +80,11 @@ BeautifulSoup4– to parse and extract data from HTML
 <br>
 
 <b>🚀 How It Works</b>
-
 The script sends an HTTP GET request to a news website (e.g., BBC News).
 <br>
 The HTML response is parsed using BeautifulSoup.
-<br
-The program extracts all <h2> tags (commonly used for headlines).
+<br>
+The program extracts all h2 tags (commonly used for headlines).
 <br>
 The cleaned text is saved in headlines.txt.
 <br>
