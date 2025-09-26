@@ -93,7 +93,6 @@ The cleaned text is saved in headlines.txt.
 <h1>task 4</h1>
 <h3>REST API with Flask</h3>
 <br>
-
 "A simple Flask REST API for managing users with GET, POST, PUT, and DELETE endpoints"
 <br>
 <b>🚀 Features</b>
