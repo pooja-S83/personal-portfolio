@@ -89,3 +89,31 @@ The program extracts all h2 tags (commonly used for headlines).
 <br>
 The cleaned text is saved in headlines.txt.
 <br>
+
+<h1>task 4</h1>
+<h3>REST API with Flask</h3>
+<br>
+
+"A simple Flask REST API for managing users with GET, POST, PUT, and DELETE endpoints"
+<br>
+<b>🚀 Features</b>
+<br>
+- GET all users
+<br>
+- GET a single user by ID
+<br>
+- POST new user
+<br>
+- PUT update user
+<br>
+- DELETE user
+<br>
+
+<b>🧠 Notes</b>
+<br>
+- All responses are in JSON format.
+<br>
+- Error messages are descriptive and follow HTTP status codes.
+<br>
+- Designed for easy extension into database-backed APIs.
+<br>
