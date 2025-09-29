@@ -27,7 +27,7 @@ Q → quit
 A simple <b>console-based Python application</b> to manage your weekly to-do tasks.  
 You can add multiple tasks per day, mark them as done, edit, remove, or clear all tasks at once. Tasks are stored persistently in a text file (`tasks.txt`) in the same folder.
 
-<b>Features</b>
+<h5>Features</h5>
 - Add tasks for each day of the week (Monday → Sunday)  
 - View tasks day-wise with status symbols:
   - ⏳ Pending  
@@ -49,7 +49,7 @@ You can add multiple tasks per day, mark them as done, edit, remove, or clear al
 7. Mark all tasks as done
 8. Exit
 
-<b>File Structure</b>
+<h5>File Structure</h5>
 <br>
 task2/
 │
@@ -62,11 +62,12 @@ task2/
 
 <h1> TASK3 </h1>
 <h3>Web Scraper for News Headlines</h3>
+
 📌 Objective
 
 Build a Python script that automatically scrapes top news headlines from a public website and saves them into a text file.
 
-<b>🛠 Tools & Libraries Used </b>
+<h5>🛠 Tools & Libraries Used </h5>
 Python 3
 <br>
 requests – to send HTTP requests and fetch HTML
@@ -79,7 +80,7 @@ BeautifulSoup4– to parse and extract data from HTML
 ├── headlines.txt <br>
 <br>
 
-<b>🚀 How It Works</b>
+<h5>🚀 How It Works</h5>
 <br>
 The script sends an HTTP GET request to a news website (e.g., BBC News).
 <br>
@@ -95,7 +96,7 @@ The cleaned text is saved in headlines.txt.
 <br>
 "A simple Flask REST API for managing users with GET, POST, PUT, and DELETE endpoints"
 <br>
-<b>🚀 Features</b>
+<h5>🚀 Features</h5>
 <br>
 - GET all users
 <br>
@@ -107,8 +108,8 @@ The cleaned text is saved in headlines.txt.
 <br>
 - DELETE user
 <br>
-
-<b>🧠 Notes</b>
+<br>
+<h5>🧠 Notes</h5>
 <br>
 - All responses are in JSON format.
 <br>
@@ -123,7 +124,7 @@ The cleaned text is saved in headlines.txt.
 This project demonstrates how to load, process, and visualize sales data using Python's **Pandas** and **Matplotlib** libraries. It includes robust error handling for missing files and provides insights into total sales by product category.
 <br>
 
-<b>🚀 Features</b>
+<h5>🚀 Features</h5>
 <br>
 - Loads sales data from a CSV file using `pandas.read_csv()`
 <br>
@@ -138,7 +139,7 @@ This project demonstrates how to load, process, and visualize sales data using P
 - Highlights highest and lowest selling categories
 <br>
 
-<b>📈 Sample Output</b>
+<h5>📈 Sample Output</h5>
 - A bar chart showing total sales by product category
 <br>
 - Console output summarizing
@@ -148,6 +149,9 @@ This project demonstrates how to load, process, and visualize sales data using P
 - Total sales per category
 <br>
 - Highest and lowest selling categories
+<br>
+
+
 <br>
 <img width="1000" height="600" alt="task5" src="https://github.com/user-attachments/assets/00cbd935-ecec-4004-99d1-93e7f4b6d483" />
 
