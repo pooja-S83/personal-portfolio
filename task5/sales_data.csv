@@ -1,0 +1,16 @@
+Order ID,Product Category,Sales,Region
+1,Electronics,1200.50,North
+2,Furniture,450.00,South
+3,Electronics,800.25,North
+4,Apparel,55.75,East
+5,Furniture,120.50,West
+6,Electronics,1500.00,South
+7,Apparel,90.00,East
+8,Furniture,300.00,North
+9,Electronics,210.50,West
+10,Apple,40.00,North
+11,Apple,4.00,South
+12,oneplus,1080.00,East
+13,Apple,90.00,North
+14,oneplus,140.00,West
+15,Apple,7.00,North
