@@ -116,3 +116,39 @@ The cleaned text is saved in headlines.txt.
 <br>
 - Designed for easy extension into database-backed APIs.
 <br>
+
+<h1>task 5</h1>
+<h3>📊 Sales Data Analysis & Visualization</h3>
+<br>
+This project demonstrates how to load, process, and visualize sales data using Python's **Pandas** and **Matplotlib** libraries. It includes robust error handling for missing files and provides insights into total sales by product category.
+<br>
+
+<b>🚀 Features</b>
+<br>
+- Loads sales data from a CSV file using `pandas.read_csv()`
+<br>
+- Automatically generates sample data if the CSV is missing
+<br>
+- Displays DataFrame structure and summary
+<br>
+- Groups sales by product category using `groupby()` and `sum()`
+<br>
+- Visualizes results with a clean bar chart using `matplotlib.pyplot`
+<br>
+- Highlights highest and lowest selling categories
+<br>
+
+<b>📈 Sample Output</b>
+- A bar chart showing total sales by product category
+<br>
+- Console output summarizing
+<br>
+- DataFrame structure
+<br>
+- Total sales per category
+<br>
+- Highest and lowest selling categories
+<br>
+<img width="1000" height="600" alt="task5" src="https://github.com/user-attachments/assets/00cbd935-ecec-4004-99d1-93e7f4b6d483" />
+
+
