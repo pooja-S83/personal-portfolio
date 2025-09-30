@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="project-detail">
+  <div class="detail-card">
+    <h1>DAILY NEWS Portal</h1>
+    <p class="sub">
+      A dynamic web portal providing up-to-the-minute news across various categories with a robust backend managing articles and user roles.
+    </p>
+    <img src="{{ url_for('static', filename='daily_news.png') }}" 
+         alt="Daily_NEWS Model Output" 
+         class="project-output-image"/>
+    <h2>Overview</h2>
+    <p>This portal supports multiple news categories, user authentication, and content management to deliver fresh news efficiently.</p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Real-time news updates</li>
+      <li>Multiple categories and sections</li>
+      <li>Role-based user management</li>
+      <li>Backend built with Django</li>
+    </ul>
+
+    <h2>Technologies Used</h2>
+    <p>Python, Django, HTML, CSS, JavaScript</p>
+    <p>GIT HUB Repo: <a href="https://github.com/pooja-S83" target="_blank">Daily NEWS</a></p>
+    <a href="/#projects" class="btn back-btn">← Back to Projects</a>
+  </div>
+</section>
+{% endblock %}

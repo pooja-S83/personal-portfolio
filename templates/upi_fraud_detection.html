@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="project-detail">
+  <div class="detail-card">
+    <h1>UPI Fraud Detection ML</h1>
+    <p class="sub">
+      A machine learning-based system designed to identify and flag suspicious UPI transactions to prevent financial losses.
+    </p>
+
+    <img src="{{ url_for('static', filename='images/upi_fraud_output.png') }}" 
+         alt="UPI Fraud Detection Model Output" 
+         class="project-output-image"/>
+
+    <h2>Overview</h2>
+    <p>This project uses historical transaction data and ML algorithms to detect potential fraud and adapt patterns over time for accuracy.</p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Fraud detection using ML algorithms</li>
+      <li>Real-time transaction monitoring</li>
+      <li>Database management with MySQL</li>
+      <li>Automated alerts for suspicious activity</li>
+    </ul>
+
+    <h2>Technologies Used</h2>
+    <p>Python, MySQL, Machine Learning Algorithms</p>
+
+    <p>GIT HUB Repo: <a href="https://github.com/pooja-S83" target="_blank">UPI Fraud Detection</a></p>
+    <a href="/#projects" class="btn back-btn">← Back to Projects</a>
+  </div>
+</section>
+{% endblock %}

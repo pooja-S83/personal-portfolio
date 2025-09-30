@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section id="about" class="intro">
+  <div class="terminal-card enhanced-profile-card">
+    <p class="green">Hello, I'm</p>
+    <h1>Pooja Sajjan</h1>
+    <h2>Full Stack Developer</h2>
+    <p class="gray"></p>
+    <blockquote class="profile-quote">
+      "I excel at transforming challenges into efficient solutions by combining technical expertise with creative problem-solving. With a balance of teamwork and self-drive, I ensure projects are delivered with precision and impact."
+    </blockquote>
+    <p class="gray role-tag">Developer</p>
+    <p class="skills">
+      Python, Django, JavaScript, React, SQL, AI/ML, Flask
+    </p>
+    <div class="buttons">
+        <a href="#projects" class="btn">view_projects</a>
+        <a href="{{ url_for('static', filename='resume.pdf') }}" target="_blank" class="btn">resume.pdf</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="education" class="education">
+  <h2>Education</h2>
+  <div class="edu-grid">
+    <div class="edu-card">
+      <h3>Bachelor of Engineering</h3>
+      <p>Visvesvaraya Technological University</p>
+      <p>Ghousia College of Engineering, Ramanagaram</p>
+      <p><b>CGPA:</b> <span class="highlight">9.1</span> | <span class="highlight">Top 1% of class</span></p>
+      <p class="date">2022 - Present</p>
+    </div>
+    <div class="edu-card">
+      <h3>Higher Secondary</h3>
+      <p>Abhyudaya PU Science College</p>
+      <p>Muddebihal, Dist: Vijaypura</p>
+      <p><b>Percentage:</b> <span class="highlight">91%</span></p>
+      <p class="date">2020 - 2022</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="about-me" class="about-me enhanced-about-me">
+  <h2>About Me</h2>
+  <p>
+    A passionate Full Stack Developer currently pursuing Bachelor of Engineering at Visvesvaraya Technological University. Driven to create innovative solutions that bridge technology and user experience. 
+    With a strong foundation in Python, Django, JavaScript, and emerging expertise in AI/ML, I enjoy building applications that solve real-world problems.
+    Consistent academic excellence (Top 1% of class) and practical application through projects ranging from weather apps to fraud detection systems.
+  </p>
+</section>
+
+<section id="skills" class="skills-section enhanced-skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>Python (OOP, Data Structures, Algorithms)</li>
+    <li>JavaScript, React</li>
+    <li>Django, Flask</li>
+    <li>HTML, CSS, Bootstrap</li>
+    <li>SQL, MySQL, Database Management</li>
+    <li>API Integration</li>
+    <li>Machine Learning (ML), AI/ML tools</li>
+    <li>Git, GitHub, Canva, Figma</li>
+  </ul>
+</section>
+
+<div class="project-card">
+  <h3><a href="/projects/met-report">Met Report - Weather App</a></h3>
+  <p>Real-time weather information with API integration, announcements in Kannada, and speech recognition.</p>
+  <span class="highlight">Tools:</span> HTML, CSS, JavaScript, Bootstrap
+</div>
+<div class="project-card">
+  <h3><a href="/projects/upi-fraud-detection">UPI Fraud Detection ML</a></h3>
+  <p>Machine Learning model flags suspicious transactions, prevents financial loss, adapts to historical patterns.</p>
+  <span class="highlight">Tools:</span> Python, MySQL, ML algorithms
+</div>
+<div class="project-card">
+  <h3><a href="/projects/daily-news-portal">DAILY NEWS Portal</a></h3>
+  <p>Dynamic portal for real-time news across multiple categories; robust backend for articles and user roles.</p>
+  <span class="highlight">Tools:</span> Python, HTML, CSS, JavaScript, Django
+</div>
+
+
+<section id="certificates" class="certificates-section">
+  <h2>Certificates & Achievements</h2>
+  <div class="cert-grid">
+    <div class="cert-card">
+      <h3>
+        <a href="{{ url_for('static', filename='Simplilearn Certificate.pdf') }}" target="_blank">
+          Simplilearn Certified
+        </a>
+      </h3>
+      <p>Data Structures and Algorithms (DSA)</p>
+    </div>
+    <div class="cert-card">
+      <h3>
+        <a href="{{ url_for('static', filename='outskill.pdf') }}" target="_blank">
+          AI mastermind certificate
+        </a>
+      </h3>
+      <p>experience Wasnot about learning tools it was about understanding them creatively solve real world problem - Vaibhav Sisinty</p>
+    </div>
+    <div class="cert-card">
+      <h3>
+        <a href="{{ url_for('static', filename='nxtwave-certificate.jpeg') }}" target="_blank">
+          Build your Own GEN AI
+        </a>
+      </h3>
+      <p>WorkShop by AI export Mr.Abhinav Devaguptapu</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="contact" class="contact-section">
+  <h2>Contact</h2>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3><i class="fa fa-envelope"></i> Email</h3>
+      <p>poojasajjan2004@gmail.com</p>
+    </div>
+    <div class="contact-card">
+      <h3><i class="linkedin"></i> LinkedIn</h3>
+      <p><a href="https://www.linkedin.com/in/pooja-s-8aab11380/" target="_blank">Pooja S</a></p>
+    </div>
+    <div class="contact-card">
+      <h3><i class="fa fa-github"></i> GitHub</h3>
+      <p><a href="https://github.com/pooja-S83" target="_blank">pooja-S83</a></p>
+    </div>
+    <div class="contact-card">
+      <h3><i class="fa fa-phone"></i> Phone</h3>
+      <p>8******737</p>
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}

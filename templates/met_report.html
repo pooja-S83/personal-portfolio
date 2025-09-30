@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="project-detail">
+  <div class="detail-card">
+    <h1>Met Report - Weather App</h1>
+    <p class="sub">
+      Real-time weather application with multilingual support and AI-powered features.
+    </p>
+    <img src="{{ url_for('static', filename='met_report.jpeg') }}" 
+         alt="real time weather detection Model Output" 
+         class="project-output-image"/>
+    <h2>Overview</h2>
+    <p>Met Report provides real-time weather data using API integration, announcements in Kannada, and voice commands with speech recognition.</p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Real-time weather updates</li>
+      <li>Kannada text-to-speech announcements</li>
+      <li>Speech recognition support</li>
+      <li>Responsive UI using Bootstrap</li>
+    </ul>
+
+    <h2>Technologies Used</h2>
+    <p>HTML, CSS, JavaScript, Bootstrap</p>
+    <p>GIT HUB Repo: <a href="https://github.com/pooja-S83/real-time-weather-application" target="_blank">Met_report</a></p>
+    <a href="/#projects" class="btn back-btn">← Back to Projects</a>
+  </div>
+</section>
+{% endblock %}
