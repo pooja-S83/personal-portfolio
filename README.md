@@ -1,5 +1,5 @@
 <h1>Personal Portfolio</h1>
-**🌟 Overview**
+<h5>🌟 Overview</h5>
 <br>
 This is a personal portfolio website showcasing the projects, skills, education, certificates, and contact details of Pooja Sajjan, a passionate Full Stack Developer specializing in Python, Django, JavaScript, React, and AI/ML.
 <br>
