@@ -5,6 +5,8 @@ This is a personal portfolio website showcasing the projects, skills, education,
 <br>
 Built with Flask, HTML, CSS, and Bootstrap for a clean and responsive design.
 
+<br>
+<br>
 **🚀 Features**
 <br>
 **👩‍💻 About Section** — Personal introduction, skills summary.
