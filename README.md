@@ -6,19 +6,18 @@ This is a personal portfolio website showcasing the projects, skills, education,
 Built with Flask, HTML, CSS, and Bootstrap for a clean and responsive design.
 
 <br>
+🚀 Features
 <br>
-**🚀 Features**
+👩‍💻 About Section — Personal introduction, skills summary.
 <br>
-**👩‍💻 About Section** — Personal introduction, skills summary.
+🎓 Education Section — Academic achievements.
 <br>
-**🎓 Education Section** — Academic achievements.
+📝 About Me — Bio with personal vision and expertise.
 <br>
-**📝 About Me** — Bio with personal vision and expertise.
+💻 Skills Section — Technical proficiencies.
 <br>
-**💻 Skills Section** — Technical proficiencies.
+📂 Projects Showcase — Descriptions and tools used.
 <br>
-**📂 Projects Showcase** — Descriptions and tools used.
+🏆 Certificates — Verified digital certifications.
 <br>
-**🏆 Certificates** — Verified digital certifications.
-<br>
-**📬 Contact Section** — Email, LinkedIn, GitHub, phone.
+📬 Contact Section— Email, LinkedIn, GitHub, phone.
