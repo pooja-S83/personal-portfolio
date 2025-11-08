@@ -2,24 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Pooja S — Full Stack Developer skilled in Python, Django, Flask, and AI/ML. Explore my projects, achievements, and skills.">
   <title>Pooja S | Portfolio</title>
+
+  <!-- Styles -->
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="{{ url_for('static', filename='images/avatar.avif') }}" type="image/x-icon">
 </head>
+
 <body>
   <!-- Navbar -->
   <header class="navbar">
-    <div class="logo"><a href="/">Pooja S</a></div>
-    <nav>
-    <a href="#education">Education</a>
-    <a href="#about-me">Profile</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#certificates">Certificates</a>
-    <a href="#contact">Contact</a>
-    </nav>
+    <div class="navbar-left">
+      <!-- Avatar -->
+      <a href="#about-me" class="navbar-avatar" aria-label="Go to profile section">
+        <img src="{{ url_for('static', filename='images/avatar.avif') }}" 
+             alt="Pooja S profile picture" 
+             class="avatar-img" 
+             loading="lazy">
+      </a>
 
+      <!-- Logo -->
+      <div class="logo">
+        <a href="/" title="Home">Pooja S</a>
+      </div>
+    </div>
+
+    <!-- Navigation Links -->
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#education">🎓 Education</a>
+      <a href="#about-me">👩‍💻 Profile</a>
+      <a href="#skills">🧠 Skills</a>
+      <a href="#projects">🚀 Projects</a>
+      <a href="#certificates">🏅 Certificates</a>
+      <a href="#contact">📞 Contact</a>
+    </nav>
   </header>
+
   <!-- Page Content -->
   <main>
     {% block content %}{% endblock %}

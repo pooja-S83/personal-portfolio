@@ -2,27 +2,74 @@
 {% block content %}
 <section class="project-detail">
   <div class="detail-card">
-    <h1>DAILY NEWS Portal</h1>
+    <h1>📰 Daily News Portal</h1>
     <p class="sub">
-      A dynamic web portal providing up-to-the-minute news across various categories with a robust backend managing articles and user roles.
+      A dynamic Django-powered web application delivering the latest news across multiple categories — built with secure user management and a robust content publishing system.
     </p>
-    <img src="{{ url_for('static', filename='daily_news.png') }}" 
-         alt="Daily_NEWS Model Output" 
-         class="project-output-image"/>
-    <h2>Overview</h2>
-    <p>This portal supports multiple news categories, user authentication, and content management to deliver fresh news efficiently.</p>
 
-    <h2>Features</h2>
+    <img src="{{ url_for('static', filename='images/daily_news.png') }}" 
+         alt="Daily News Portal Dashboard" 
+         class="project-output-image"/>
+
+    <h2>🌟 Overview</h2>
+    <p>
+      The <strong>Daily News Portal</strong> is a full-stack web application designed to manage and display real-time news updates. 
+      It allows admins and editors to post, edit, and categorize news articles, while users can browse news across different topics like technology, sports, entertainment, and politics.
+    </p>
+
+    <h2>🧠 Key Features</h2>
     <ul>
-      <li>Real-time news updates</li>
-      <li>Multiple categories and sections</li>
-      <li>Role-based user management</li>
-      <li>Backend built with Django</li>
+      <li>✅ Real-time news updates with category-wise filtering</li>
+      <li>✅ Secure user authentication (Admin, Editor, Reader roles)</li>
+      <li>✅ Dynamic news management through Django Admin Panel</li>
+      <li>✅ Search and pagination for better readability</li>
+      <li>✅ Responsive and modern UI using Bootstrap</li>
     </ul>
 
-    <h2>Technologies Used</h2>
-    <p>Python, Django, HTML, CSS, JavaScript</p>
-    <p>GIT HUB Repo: <a href="https://github.com/pooja-S83" target="_blank">Daily NEWS</a></p>
+    <h2>📁 Project Structure</h2>
+    <pre>
+Daily_News_Portal/
+│
+├── manage.py                  → Django project manager
+├── news_app/                  → Core app for handling news
+│   ├── models.py              → Database models (Article, Category, User)
+│   ├── views.py               → View logic for displaying articles
+│   ├── urls.py                → App-level URL routing
+│   ├── templates/             → HTML templates
+│   └── static/                → CSS, JS, and images
+├── daily_news/                → Main project configuration
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── db.sqlite3                 → Database
+    </pre>
+
+    <h2>⚙️ How It Works</h2>
+    <ol>
+      <li>🔹 Admins log in to the portal to create and publish news articles.</li>
+      <li>🔹 Articles are stored in the database with timestamps and category tags.</li>
+      <li>🔹 Users can browse or search news articles in real-time.</li>
+      <li>🔹 The backend manages role-based access — only admins can post or delete articles.</li>
+      <li>🔹 Frontend dynamically renders updates without page reloads for a smooth experience.</li>
+    </ol>
+
+    <h2>🎓 Learning Outcomes</h2>
+    <ul>
+      <li>🧩 Mastered Django MVC structure and database integration.</li>
+      <li>🔐 Learned role-based authentication and authorization.</li>
+      <li>📰 Developed CRUD operations and content management workflows.</li>
+      <li>💡 Enhanced understanding of template inheritance and dynamic rendering.</li>
+    </ul>
+
+    <h2>🛠️ Technologies Used</h2>
+    <p><strong>Python</strong>, <strong>Django</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Bootstrap</strong></p>
+
+    <p>🔗 GitHub Repo: 
+      <a href="https://github.com/pooja-S83" target="_blank">
+        Daily News Portal
+      </a>
+    </p>
+
     <a href="/#projects" class="btn back-btn">← Back to Projects</a>
   </div>
 </section>

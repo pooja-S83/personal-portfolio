@@ -31,5 +31,10 @@ def upi_fraud_detection():
 def daily_news_portal():
     return render_template("daily_news_portal.html")
 
+@app.route("/projects/real-time-chat-application")
+def real_time_chat_application():
+    return render_template("real-time-chat-application.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)

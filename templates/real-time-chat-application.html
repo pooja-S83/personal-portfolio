@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="project-detail">
+  <div class="detail-card">
+    <h1>💬 Real-Time Chat Application</h1>
+    <p class="sub">
+      A Flask + Socket.IO powered real-time chat web app that enables multiple users to join chat rooms and exchange messages instantly — offering a WhatsApp-like group chat experience.
+    </p>
+
+    <img src="{{ url_for('static', filename='images/chatapp.png') }}" 
+         alt="Real-Time Chat Application Interface" 
+         class="project-output-image"/>
+
+    <h2>Overview</h2>
+    <p>
+      This project is a real-time chat platform built using <strong>Flask</strong> and <strong>Socket.IO</strong>. 
+      It allows multiple users to connect, create or join chat rooms, and send messages that are broadcast instantly 
+      to everyone in the same room. The system is designed to be lightweight, responsive, and engaging — 
+      offering seamless communication without requiring a database.
+    </p>
+
+    <h2>🚀 Key Features</h2>
+    <ul>
+      <li>✅ <strong>Instant Messaging</strong> — Real-time message delivery using Flask-SocketIO without page refresh.</li>
+      <li>✅ <strong>Dynamic Chat Rooms</strong> — Users can create or join chat rooms dynamically.</li>
+      <li>✅ <strong>Broadcast System</strong> — Messages are shared instantly with all users in the same room.</li>
+      <li>✅ <strong>Responsive UI</strong> — Clean, mobile-friendly WhatsApp-style chat interface.</li>
+      <li>✅ <strong>User-Based Message Alignment</strong> — 
+          <br>• <em>Right:</em> Messages sent by you 
+          <br>• <em>Left:</em> Messages from other users
+      </li>
+      <li>✅ <strong>Auto Scroll & Smooth Animations</strong> — Seamless experience with automatic scrolling and transitions.</li>
+      <li>✅ <strong>No Database Needed</strong> — All rooms and messages are managed in-memory for simplicity and speed.</li>
+    </ul>
+
+    <h2>🛠️ Technologies Used</h2>
+    <ul>
+      <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Backend:</strong> Flask (Python)</li>
+      <li><strong>Real-Time Communication:</strong> Flask-SocketIO</li>
+      <li><strong>Styling:</strong> Custom CSS (WhatsApp-style layout)</li>
+    </ul>
+
+    <h2>📂 Project Structure</h2>
+    <pre>
+REAL-TIME-CHAT-APPLICATION/
+│
+├── main.py                # Main Flask application
+│
+├── templates/             # HTML templates
+│   ├── base.html
+│   ├── home.html
+│   └── room.html
+│
+├── static/                # Static assets
+│   └── css/
+│       └── style.css
+│
+└── README.md              # Documentation
+    </pre>
+
+    <h2>💡 How It Works</h2>
+    <ol>
+      <li>Users enter a username and room code on the home page (or create one).</li>
+      <li>Flask-SocketIO establishes a live connection to the selected room.</li>
+      <li>Messages are sent and received in real time among all room participants.</li>
+      <li>Messages are visually aligned — right for your messages, left for others.</li>
+    </ol>
+
+    <h2>🎯 Highlights</h2>
+    <p>
+      Designed to demonstrate <strong>real-time communication</strong> in web apps using Flask and Socket.IO. 
+      The project serves as a foundation for advanced chat systems with additional features such as 
+      user authentication, media sharing, or message persistence.
+    </p>
+
+    <h2>🧠 Learning Outcomes</h2>
+    <ul>
+      <li>Understanding and implementing WebSockets for bidirectional communication.</li>
+      <li>Managing live events in Flask applications using Flask-SocketIO.</li>
+      <li>Building responsive UIs that react dynamically to real-time data updates.</li>
+      <li>Structuring full-stack Flask applications efficiently.</li>
+    </ul>
+
+    <p><strong>GitHub Repo:</strong> 
+      <a href="https://github.com/pooja-S83/FULLSTACK-projects/tree/main/REAL-TIME-CHAT-APPLICATION" target="_blank">
+        Real-Time Chat Application
+      </a>
+    </p>
+
+    <a href="/#projects" class="btn back-btn">← Back to Projects</a>
+  </div>
+</section>
+{% endblock %}

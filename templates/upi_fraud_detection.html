@@ -2,30 +2,82 @@
 {% block content %}
 <section class="project-detail">
   <div class="detail-card">
-    <h1>UPI Fraud Detection ML</h1>
+    <h1>💸 UPI Fraud Detection using Machine Learning</h1>
     <p class="sub">
-      A machine learning-based system designed to identify and flag suspicious UPI transactions to prevent financial losses.
+      A machine learning-based system designed to detect and prevent fraudulent UPI (Unified Payments Interface) transactions by analyzing real-time transactional data.
     </p>
 
-    <img src="{{ url_for('static', filename='images/upi_fraud_output.png') }}" 
+    <img src="{{ url_for('static', filename='images/upi_fraud_detection.png') }}" 
          alt="UPI Fraud Detection Model Output" 
          class="project-output-image"/>
 
-    <h2>Overview</h2>
-    <p>This project uses historical transaction data and ML algorithms to detect potential fraud and adapt patterns over time for accuracy.</p>
+    <h2>🌟 Overview</h2>
+    <p>
+      The <strong>UPI Fraud Detection System</strong> leverages machine learning models to analyze user transactions and identify patterns indicative of fraudulent behavior. 
+      It monitors real-time data and uses predictive analytics to reduce the risk of digital payment fraud.
+    </p>
 
-    <h2>Features</h2>
+    <h2>🧠 Key Features</h2>
     <ul>
-      <li>Fraud detection using ML algorithms</li>
-      <li>Real-time transaction monitoring</li>
-      <li>Database management with MySQL</li>
-      <li>Automated alerts for suspicious activity</li>
+      <li>✅ Fraud detection using SVM and CNN algorithms</li>
+      <li>✅ Real-time transaction monitoring and classification</li>
+      <li>✅ MySQL database for secure transaction logging</li>
+      <li>✅ Alert system for suspicious transactions</li>
+      <li>✅ User-friendly web interface for admins</li>
     </ul>
 
-    <h2>Technologies Used</h2>
-    <p>Python, MySQL, Machine Learning Algorithms</p>
+    <h2>📁 Project Structure</h2>
+    <pre>
+UPI_Fraud_Detection/
+│
+├── app.py                   → Flask web application
+├── algo.py                  → ML algorithms (SVM, CNN) implementation
+├── static/                  → CSS, JS, and image files
+│   ├── css/
+│   ├── docs/
+│   ├── js/
+│   └── images/
+├── templates/               → HTML templates
+│   ├── index.html
+│   ├── result.html
+│   └── login.html
+│   └── error.html
+│   └── forecast.html
+│   └── predict.html
+│   └── register.html
+│   └── upload.html
 
-    <p>GIT HUB Repo: <a href="https://github.com/pooja-S83" target="_blank">UPI Fraud Detection</a></p>
+├── database/
+│   └── upifraud.sql     → MySQL schema and dataset
+└── README.md
+    </pre>
+
+    <h2>⚙️ How It Works</h2>
+    <ol>
+      <li>🔹 The user inputs transaction details through the web interface.</li>
+      <li>🔹 Data is processed and passed to the trained ML model (SVM/CNN).</li>
+      <li>🔹 The model analyzes transaction patterns and classifies them as <strong>Legitimate</strong> or <strong>Fraudulent</strong>.</li>
+      <li>🔹 Results are displayed to the user and stored in the MySQL database.</li>
+      <li>🔹 Admin can review past transactions and flagged cases via the dashboard.</li>
+    </ol>
+
+    <h2>🎓 Learning Outcomes</h2>
+    <ul>
+      <li>🔍 Gained hands-on experience in applying ML algorithms for financial fraud detection.</li>
+      <li>💾 Learned integration of Flask with MySQL for end-to-end data flow.</li>
+      <li>🧮 Improved understanding of supervised learning, SVM, and CNN models.</li>
+      <li>⚡ Developed a secure and efficient full-stack ML-based web application.</li>
+    </ul>
+
+    <h2>🛠️ Technologies Used</h2>
+    <p><strong>Python</strong>, <strong>Flask</strong>, <strong>MySQL</strong>, <strong>HTML/CSS</strong>, <strong>Machine Learning (SVM, CNN)</strong></p>
+
+    <p>🔗 GitHub Repo: 
+      <a href="https://github.com/pooja-S83" target="_blank">
+        UPI Fraud Detection
+      </a>
+    </p>
+
     <a href="/#projects" class="btn back-btn">← Back to Projects</a>
   </div>
 </section>

@@ -2,27 +2,102 @@
 {% block content %}
 <section class="project-detail">
   <div class="detail-card">
-    <h1>Met Report - Weather App</h1>
-    <p class="sub">
-      Real-time weather application with multilingual support and AI-powered features.
-    </p>
-    <img src="{{ url_for('static', filename='met_report.jpeg') }}" 
-         alt="real time weather detection Model Output" 
-         class="project-output-image"/>
-    <h2>Overview</h2>
-    <p>Met Report provides real-time weather data using API integration, announcements in Kannada, and voice commands with speech recognition.</p>
 
-    <h2>Features</h2>
+    <!-- Project Title -->
+    <h1>🌤️ Real-Time Weather App</h1>
+    <p class="sub">
+      A sleek, responsive web application that provides real-time weather updates for any city 🌍 — 
+      built with simplicity, accuracy, and a touch of style 💡
+    </p>
+
+    <!-- Project Image -->
+    <img src="{{ url_for('static', filename='images/met_report.jpeg') }}" 
+         alt="Real-Time Weather Application Interface" 
+         class="project-output-image"/>
+
+    <!-- Overview -->
+    <h2>🌟 Overview</h2>
+    <p>
+      The <strong>Real-Time Weather App</strong> lets users instantly access live weather data for any city across the globe. 
+      It displays essential weather details such as <strong>temperature, humidity, wind speed, and overall condition</strong>. 
+      The interface is clean, responsive, and includes a unit toggle feature (°C / °F) for a customizable user experience.
+    </p>
+    <p>
+      This app is lightweight, fast, and easy to deploy — ideal for both beginners learning about APIs and users who want 
+      quick weather updates on the go.
+    </p>
+
+    <!-- Features -->
+    <h2>🧠 Key Features</h2>
     <ul>
-      <li>Real-time weather updates</li>
-      <li>Kannada text-to-speech announcements</li>
-      <li>Speech recognition support</li>
-      <li>Responsive UI using Bootstrap</li>
+      <li>✨ <strong>Real-Time Weather Data</strong> — Fetches live updates using the OpenWeatherMap API.</li>
+      <li>☀️ <strong>Temperature Toggle</strong> — Switch seamlessly between Celsius 🌡️ and Fahrenheit ❄️.</li>
+      <li>💨 <strong>Comprehensive Weather Details</strong> — Displays temperature, humidity, wind speed, and conditions.</li>
+      <li>📱 <strong>Fully Responsive UI</strong> — Optimized for desktops, tablets, and mobile devices.</li>
+      <li>⚡ <strong>Error Handling</strong> — Gracefully handles invalid or misspelled city names.</li>
     </ul>
 
-    <h2>Technologies Used</h2>
-    <p>HTML, CSS, JavaScript, Bootstrap</p>
-    <p>GIT HUB Repo: <a href="https://github.com/pooja-S83/real-time-weather-application" target="_blank">Met_report</a></p>
+    <!-- Tech Stack -->
+    <h2>🛠️ Tech Stack</h2>
+    <table>
+      <tr>
+        <th>Layer</th>
+        <th>Technology</th>
+      </tr>
+      <tr>
+        <td>🎨 Frontend</td>
+        <td>HTML5, CSS3, JavaScript</td>
+      </tr>
+      <tr>
+        <td>🧩 API Integration</td>
+        <td>OpenWeatherMap API</a></td>
+      </tr>
+        <td>🌐 Hosting</td>
+        <td>GitHub Pages / Local Server</td>
+      </tr>
+      <tr>
+        <td>💾 Version Control</td>
+        <td>Git + GitHub</td>
+      </tr>
+    </table>
+
+<!-- How It Works -->
+    <h2>💡 How It Works</h2>
+    <ol>
+      <li>🌆 The user enters the name of any city into the input field.</li>
+      <li>🌐 The app sends a request to the <strong>OpenWeatherMap API</strong> and retrieves live weather data.</li>
+      <li>🌡️ The information (temperature, humidity, wind speed, and condition) is displayed instantly.</li>
+      <li>🔁 The user can toggle between Celsius (°C) and Fahrenheit (°F) units.</li>
+      <li>⚠️ If an invalid city name is entered, the app shows an error message gracefully.</li>
+    </ol>
+
+    <!-- Learning Outcomes -->
+    <h2>🧠 Learning Outcomes</h2>
+    <ul>
+      <li>Understood the process of integrating and consuming external APIs in web applications.</li>
+      <li>Learned to handle asynchronous data fetching using JavaScript.</li>
+      <li>Improved front-end design and responsiveness with modern CSS techniques.</li>
+      <li>Practiced error handling, API key management, and environment variable usage.</li>
+      <li>Gained experience deploying simple apps on GitHub Pages and local servers.</li>
+    </ul>
+
+    <!-- GitHub Repository -->
+    <h2>📂 Project Repository</h2>
+    <p>
+      View the complete project source code on GitHub:  
+      <a href="https://github.com/pooja-S83/FULLSTACK-projects/tree/main/Real-Time-Weather-App" target="_blank">
+        🌐 Real-Time Weather App
+      </a>
+    </p>
+
+    <!-- Start Using Instructions -->
+    <h2>🚀 Start Using the App</h2>
+    <p>
+      👉 Enter a city name → Instantly view the weather details.  
+      🌡️ Use the toggle button to switch between <strong>°C</strong> and <strong>°F</strong>.
+    </p>
+
+    <!-- Back Button -->
     <a href="/#projects" class="btn back-btn">← Back to Projects</a>
   </div>
 </section>
