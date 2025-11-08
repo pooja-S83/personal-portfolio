@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- Favicon (optional) -->
+  <!-- Favicon  -->
   <link rel="icon" href="{{ url_for('static', filename='images/avatar.avif') }}" type="image/x-icon">
 </head>
 
@@ -21,7 +21,7 @@
       <!-- Avatar -->
       <a href="#about-me" class="navbar-avatar" aria-label="Go to profile section">
         <img src="{{ url_for('static', filename='images/avatar.avif') }}" 
-             alt="Pooja S profile picture" 
+             alt="Pooja S " 
              class="avatar-img" 
              loading="lazy">
       </a>
@@ -31,6 +31,9 @@
         <a href="/" title="Home">Pooja S</a>
       </div>
     </div>
+
+    <!-- Hamburger Icon -->
+    <span class="menu-toggle" onclick="toggleMenu()">☰</span>
 
     <!-- Navigation Links -->
     <nav class="nav-links" aria-label="Main navigation">
@@ -47,5 +50,12 @@
   <main>
     {% block content %}{% endblock %}
   </main>
+
+  <!-- JS for Responsive Navbar -->
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
 </body>
 </html>

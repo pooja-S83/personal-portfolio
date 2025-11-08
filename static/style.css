@@ -458,3 +458,58 @@ html {
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
+
+/* Hamburger Menu Icon */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #38bdf8;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: #0a0f1e;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    width: 220px;
+    text-align: right;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 10px 0;
+    margin: 5px 0;
+    color: #e2e8f0;
+    border-bottom: 1px solid #1e293b;
+  }
+
+  .nav-links a:last-child {
+    border-bottom: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+    animation: fadeIn 0.3s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
