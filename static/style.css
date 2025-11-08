@@ -601,3 +601,201 @@ html {
     font-size: 18px;
   }
 }
+
+@media (max-width: 992px) {
+  .detail-card {
+    padding: 30px;
+  }
+
+  .detail-card h1 {
+    font-size: 1.8rem;
+  }
+
+  .detail-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .detail-card .sub {
+    font-size: 1rem;
+  }
+
+  .project-output-image {
+    max-width: 90%;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+  .detail-card {
+    padding: 20px;
+  }
+
+  .detail-card h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .detail-card h2 {
+    font-size: 1.2rem;
+  }
+
+  .detail-card .sub {
+    font-size: 0.95rem;
+  }
+
+  .project-output-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  pre {
+    font-size: 0.8rem;
+  }
+
+  ol, ul {
+    padding-left: 20px;
+  }
+
+  .btn.back-btn {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+  }
+}
+
+/* === Responsive Project Detail Section Enhancements === */
+
+/* Base styling update */
+.project-detail {
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.detail-card {
+  width: 100%;
+  max-width: 950px;
+  background: #1e1e1e;
+  color: #eaeaea;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(56, 51, 125, 0.85);
+  line-height: 1.6;
+}
+
+/* Tablet View */
+@media (max-width: 992px) {
+  .project-detail {
+    padding: 40px 20px;
+  }
+
+  .detail-card {
+    padding: 30px 25px;
+  }
+
+  .detail-card h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .detail-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .detail-card p,
+  .detail-card li {
+    font-size: 1rem;
+  }
+
+  .project-output-image {
+    max-width: 100%;
+    margin: 15px auto;
+  }
+
+  pre {
+    font-size: 0.9rem;
+    white-space: pre-wrap; /* Wrap code blocks */
+    word-break: break-word;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .project-detail {
+    padding: 30px 15px;
+  }
+
+  .detail-card {
+    padding: 25px 20px;
+    border-radius: 10px;
+  }
+
+  .detail-card h1 {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+
+  .detail-card h2 {
+    font-size: 1.2rem;
+    margin-top: 18px;
+  }
+
+  .detail-card .sub {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  ul, ol {
+    padding-left: 18px;
+  }
+
+  pre {
+    font-size: 0.8rem;
+    padding: 10px;
+    overflow-x: auto;
+  }
+
+  .project-output-image {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  }
+
+  .btn.back-btn {
+    display: block;
+    margin: 25px auto;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+/* Very Small Screens */
+@media (max-width: 480px) {
+  .detail-card {
+    padding: 20px 15px;
+  }
+
+  .detail-card h1 {
+    font-size: 1.4rem;
+  }
+
+  .detail-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .detail-card p,
+  .detail-card li {
+    font-size: 0.9rem;
+  }
+
+  .project-output-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  pre {
+    font-size: 0.75rem;
+  }
+}
